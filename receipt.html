@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        /* padding: 30px; */
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 300px;
+      }
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        letter-spacing: -1px;
+        text-align: center;
+      }
+      .priority {
+        font-size: 48px;
+        margin: 0 0 15px 0;
+        text-align: center;
+        letter-spacing: 8px;
+      }
+      .date {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        text-align: center;
+      }
+      .progress {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: center;
+      }
+      .box {
+        width: 40px;
+        height: 40px;
+        border: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>{{task}}</h1>
+    <div class="priority">{{stars}}</div>
+    <div class="date">{{date}}</div>
+    <div class="progress">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
