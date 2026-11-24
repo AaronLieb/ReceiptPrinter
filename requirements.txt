@@ -1,0 +1,5 @@
+python-escpos
+opencv-python
+numpy
+Pillow>=10.1
+html2image
